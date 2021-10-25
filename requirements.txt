@@ -1,6 +1,5 @@
-streamlit
-gunicorn
 pandas
 numpy
 scipy
 sklearn
+streamlit
