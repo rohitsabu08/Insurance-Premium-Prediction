@@ -29,7 +29,7 @@ def main():
     if st.button("Predict"):
         output=predict_forest(age,sex,children,smoker_norm,obese)
         output = round(output,2)
-        st.success('We suggest you to choose an health insurance premium of Rs.{}'.format(output))
+        st.success('We suggest you to choose an health insurance premium coverage of Rs.{}'.format(output))
 
 if __name__=='__main__':
     main()
