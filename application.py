@@ -15,7 +15,7 @@ def main():
 
     html_temp = """
     <div style="background-color:#025254 ;padding:10px">
-    <h2 style="color:white;text-align:left;font-size: 20px">Enter the following details to predict your Insurance Premium </h2>
+    <h2 style="color:white;text-align:left;font-size: 20px">Enter the following details to predict your Health Insurance Premium </h2>
     </div>
     """
     st.markdown(html_temp, unsafe_allow_html=True)
@@ -29,7 +29,7 @@ def main():
     if st.button("Predict"):
         output=predict_forest(age,sex,children,smoker_norm,obese)
         output = round(output,2)
-        st.success('You should take an health insurance premium of Rs.{}'.format(output))
+        st.success('We suggest you to choose an health insurance premium of Rs.{}'.format(output))
 
 if __name__=='__main__':
     main()
