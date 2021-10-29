@@ -10,6 +10,7 @@ def predict_forest(age,sex,children,smoker_norm,obese):
     round(prediction,2)
     return (prediction)
 
+
 def main():
     st.title("Insurance Premium Calculator")
 
