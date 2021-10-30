@@ -13,10 +13,22 @@ def predict_forest(age,sex,children,smoker_norm,obese):
 
 def main():
     st.title("Insurance Premium Calculator")
-
+    st.markdown(
+    """
+    <style>
+    .reportview-container {
+        background: url("https://image.freepik.com/free-photo/top-view-health-insurance-form-eyeglasses-with-stethoscope-wooden-background-business-healthcare-concept-savings-flat-lay-copy-space_1921-31.jpg")
+    }
+   .sidebar .sidebar-content {
+        background: url("https://image.freepik.com/free-photo/top-view-health-insurance-form-eyeglasses-with-stethoscope-wooden-background-business-healthcare-concept-savings-flat-lay-copy-space_1921-31.jpg")
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+    )
     html_temp = """
-    <div style="background-color:#025254 ;padding:10px">
-    <h2 style="color:white;text-align:left;font-size: 20px">Enter the following details to predict your Health Insurance Premium </h2>
+    <div style="background-color:#EFC970 ;padding:10px">
+    <h2 style="color:black;text-align:left;font-size: 20px">Enter the following details to predict your Health Insurance Premium </h2>
     </div>
     """
     st.markdown(html_temp, unsafe_allow_html=True)
