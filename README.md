@@ -1,7 +1,7 @@
 # Insurance-Premium-Prediction  
 
 Goal:
-Sample implementation of the Streamlit API implemented using a machine learning model.  Test the API locally with Streamlit and Deploy and test using a heroku and streamlit and later finally deploy to AWS EC2  Service.
+Sample implementation of the Streamlit API  using a machine learning model.  Test the API locally with Streamlit and Deploy and run using a heroku , streamlit and later finally deploy to AWS EC2  Service.
 
 Dataset :
 The insurance.csv dataset contains 1338 observations (rows) and 7 features (columns). The dataset contains 4 numerical features (age, bmi, children and expenses) and 3 nominal features (sex, smoker and region) that were converted into factors with numerical value designated for each level.
@@ -28,5 +28,7 @@ Server :
   ![image](https://user-images.githubusercontent.com/85154874/139689186-bff2e002-3ade-45e5-a7be-32121c5e26ec.png)
   
 Output Screen:  ( Deployed in public sever)
- 
- ![image](https://user-images.githubusercontent.com/85154874/139689464-1e6a98e1-b748-4c81-ac0f-d7fe9dd5b0e2.png)
+   ![image](https://user-images.githubusercontent.com/85154874/139689464-1e6a98e1-b748-4c81-ac0f-d7fe9dd5b0e2.png)
+   
+How to contribute 😁
+Feel free to contribute! Report any bugs in the issue section.
