@@ -31,4 +31,5 @@ Output Screen:  ( Deployed in public sever)
    ![image](https://user-images.githubusercontent.com/85154874/139689464-1e6a98e1-b748-4c81-ac0f-d7fe9dd5b0e2.png)
    
 How to contribute 😁
-Feel free to contribute! Report any bugs in the issue section.
+
+Feel free to contribute! Report any bugs in the issue section and also your views and suggesstions on comments. Thanks :-) 
